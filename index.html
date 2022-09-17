@@ -9,44 +9,55 @@
     </style>
 </head>
 <body >
-    <table>
-        <tr>
-            <td><img src="flowers.jpg" width="300" alt="тут цветочки, поверь -_-" ></td>
-            <td><h1 >Дмитрий Трофименко</h1>
-                <p><em>Учусь программированию, мне предстоит <strong>долгий путь</strong></em></p>
-                <p>дорогу осилит идущий</p></td>
-        </tr>
-    </table>
-    
+    <div class="conteiner">
+
+   <div class="info">
+            <img src="flowers.jpg"  alt="тут цветочки, поверь -_-"  class="fotoflowers">
+            <h1 >Дмитрий Трофименко</h1>
+                <p>Учусь программированию, мне предстоит <strong>долгий путь</strong></p>
+                <p>дорогу осилит идущий</p>
+                <h4>ютуб курсы</h4>
+        <a href="youtube.html">посмотреть список</a>
+            
+            </div> 
  
- <hr>
+ 
+ <div class="card bg-yellow" >
  <h2>План обучения</h2>
- <ul>
+ <ul class="list">
     <li>начать с малого</li>  
 <li>закончить крупным</li>
 <li><a href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank">пример</a></li></ul>
+</div>
+<div class="card bg-green" >
  <h2>прочее</h2>
  <ol><li>Доброй души человек</li>
 <li>Начинающий программист</li>
 <li>Конченый оптимист</li></ol>
-<hr>
+</div>
+<div class="card bg-red" >
 <h2>опыт работы</h2>
-<table>
-    <thead><tr>
-        <th>компания</th>
-            <th>должность</th>
-            <th>год</th>
-    </tr></thead>
-    <tbody><tr>
+<table class="table">
+    <tr>
+        <td>компания</td>
+        <td>должность</td>
+        <td>год</td>
+    </tr>
+    <tr>
         <td>ИП Пупкин</td>
         <td>директор</td>
         <td>1999-2000</td>
-    </tr></tbody>
+    </tr>
+    <tr>
+        <td>ИП Пупкин2</td>
+        <td>директор2</td>
+        <td>2000-2020</td>
+    </tr>
 </table>
-<hr>
-<h2>ютуб курсы</h2>
-<a href="youtube.html">посмотреть список</a>
-<hr>
+</div>
+
+
+
 <h2>связаться со мной</h2>
 <form action="/">
     <label for="name">ваше имя</label>
@@ -61,5 +72,6 @@
     <input type="submit" value="связь!">
 </form>
 
+</div>
 </body>
 </html>

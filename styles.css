@@ -1,4 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/**{
+    padding: 0;
+    margin: 0;
+}*/
+
 body{
     background-color: #f1f1f1 ;
     color: #0f141e;
+
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+a:visited{
+    color: gray;
+}
+
+.fotoflowers{
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+.info{
+    margin-bottom: 30px;
+}
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 3px;*/
+   /* word-spacing: 42px;*/
+}
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+}
+
+/*.other {
+ background: green;
+ /*padding: 15px 40px 20px 40px;*/
+ /*padding-left: 15px;
+ padding-top: 16px;
+ padding-right: 18px;
+ padding-bottom: 20px;
+ border: 5px solid red;
+ margin: 20px;
+
+ border-bottom-style: dotted;
+ border-top-width: 15px;
+}*/
+
+/*.box-model >div {
+    background: #000;
+    border: 4px solid red;
+    height: 200px;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}*/
+.bg-yellow{
+    background: #fff9dc;
+}
+.bg-green{
+    background: #e5ffe7;
+}
+.bg-red{
+    background: #ffe5e5;
+}
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.list{
+    padding: 0 20px;
+}
+.list li{
+    color:#86898f ;
+    margin-bottom: 10px;
+}
+.tabel{
+    width: 100%;  
+}
+.tabel td{
+    padding-bottom: 100px;
 }
